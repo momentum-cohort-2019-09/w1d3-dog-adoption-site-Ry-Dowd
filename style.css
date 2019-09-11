@@ -24,9 +24,9 @@ body{
     width:100%;
 }
 .filter{
-    margin:0px 50px;
     background: rgb(236,233,234);
     padding:20px 10px;
+    margin:10px 0;
 }
 .wrapper{
     display:flex;
@@ -34,4 +34,33 @@ body{
 .radio, .check{
     width:150px;
     padding:15px 0;
+}
+.dog{
+    display:block;
+    width:300px;
+    margin:3px;
+}
+.dog img{
+    width:300px;
+}
+.main{
+    margin:0px 50px;
+}
+.dog h3{
+    font-family:Oswald;
+}
+.keywords{
+    display:flex;
+    flex-wrap:wrap;
+}
+.keyword{
+    background:rgb(128,213,236);
+    border-radius: 8px;
+    flex:0 0 auto;
+    margin:3px;
+    padding:0 4px;
+    font-size: .8rem;
+}
+.dogs .wrapper{
+    flex-wrap:wrap;
 }
