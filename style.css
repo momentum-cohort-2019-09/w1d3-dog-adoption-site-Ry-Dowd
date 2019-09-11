@@ -37,11 +37,11 @@ body{
 }
 .dog{
     display:block;
-    width:300px;
+    width:350px;
     margin:3px;
 }
 .dog img{
-    width:300px;
+    width:350px;
 }
 .main{
     margin:0px 50px;
