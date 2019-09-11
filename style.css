@@ -65,17 +65,16 @@ body{
     flex-wrap:wrap;
 }
 .foot{
-    flex:1 1 auto;
+    flex:1 1 0;
     color:white;
     padding:auto;
     text-align:center;
     height:300px;
     background:contain url(starter_files/images/donate.jpg);
 }
-.foot h3{
-    margin:auto;
+.foot p{
     line-height:300px;
-    font-size:2rem;
+    font-size:4rem;
     font-family:Oswald;
 }
 .donate{
@@ -89,4 +88,17 @@ body{
 .location{
     background: linear-gradient(rgba(154, 150, 244, 0.7), rgba(154, 150, 244, 0.7)), url(starter_files/images/location.png) no-repeat;
     background-size: cover;
+}
+.leftbar, .rightbar{
+    width:20%;
+    background:rgb(236,233,234);
+}
+.leftbar{
+    order:1;
+}
+.rightbar{
+    order:3;
+}
+.center{
+    order:2;
 }
