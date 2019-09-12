@@ -37,8 +37,8 @@ body{
 }
 .dog{
     display:block;
-    width:28%;
-    margin:3px 2%;
+    width:31%;
+    margin:3px 2% 3px 0;
 }
 .dog img{
     width:100%;
@@ -71,9 +71,12 @@ body{
     text-align:center;
     height:300px;
     background:contain url(starter_files/images/donate.jpg);
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:center;
 }
 .foot p{
-    line-height:300px;
     font-size:4rem;
     font-family:Oswald;
 }
